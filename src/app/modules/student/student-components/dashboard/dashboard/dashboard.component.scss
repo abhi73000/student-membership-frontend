@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-header {
+  background-color: #2196f3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.student-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  color: #666;
+}
+
+.card-content p {
+  margin-bottom: 10px;
+}
+
+.card-actions {
+  text-align: right;
+}
+
+.update-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.update-button:hover {
+  background-color: #2196f3;
+}
+
+.notifications {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.notifications h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.notifications ul {
+  list-style: none;
+  padding: 0;
+}
+
+.notifications li {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.notifications li:last-child {
+  border-bottom: none;
+}
+
+.noNotifications p {
+  font-style: italic;
+  color: #888;
+}

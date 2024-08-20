@@ -1,0 +1,64 @@
+/* General styles for the background and layout */
+.bg {
+    text-align: center;
+    width: 100%;
+}
+
+.spinner {
+    display: block;
+    margin: 0 auto;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cart-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.child {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-title {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .parent {
+        padding: 0 10px;
+    }
+
+    .child {
+        max-width: 100%;
+    }
+}
